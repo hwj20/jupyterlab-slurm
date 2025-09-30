@@ -4,7 +4,11 @@ module.exports = {
   entry: './src/index.ts',
   mode: 'production',
   module: {
-    rules: [{ test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ }]
+    rules: [
+      { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ },
+      { test: /\.svg$/i, type: 'asset/resource' },
+      { test: /\.(png|jpe?g|gif)$/i, type: 'asset/resource' }
+    ]
   },
   resolve: { extensions: ['.tsx', '.ts', '.js'] },
   output: {

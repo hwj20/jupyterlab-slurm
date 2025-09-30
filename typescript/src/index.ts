@@ -1,9 +1,10 @@
 import { JupyterFrontEnd, JupyterFrontEndPlugin } from '@jupyterlab/application';
 import { ICommandPalette } from '@jupyterlab/apputils';
 import { INotebookTracker, NotebookPanel } from '@jupyterlab/notebook';
-import { MainAreaWidget, Widget } from '@lumino/widgets';
-import React from 'react';
+import { MainAreaWidget, ReactWidget } from '@jupyterlab/apputils';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
+import { Widget } from '@lumino/widgets';
 import { SlurmPanel } from './SlurmPanel';
 
 const EXT_ID = 'jupyterlab-slurm:open';

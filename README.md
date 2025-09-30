@@ -55,3 +55,7 @@ The GPU is **only** occupied during the Slurm job.
 - Set `SLURM_USE_REST`, `SLURMREST_URL`, `SLURMREST_TOKEN` if you want to integrate `slurmrestd`. (The demo stubs raise `NotImplementedError` to keep the sample small.)
 - Consider adding policy checks (max GPUs/time) for your cluster.
 - For a nicer UI, extend the React panel and parse `squeue` to a table.
+
+
+## TODO
+1. Do we need to support slurmrestd?

@@ -1,2 +1,7 @@
 typescript/node_modules/
+typescript/lib/
 *.lock
+python/.ipynb_checkpoints
+.vscode/
+python/jupyterlab_slurm/labextension/
+test.ipynb
