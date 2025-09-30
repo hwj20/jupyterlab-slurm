@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "target": "ES2019"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
